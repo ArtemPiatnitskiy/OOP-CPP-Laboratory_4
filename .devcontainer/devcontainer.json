@@ -1,0 +1,16 @@
+{
+    "name": "C++ MAI Lecture Examples",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "appPort": [],
+    "extensions": [
+        "ms-vscode.cpptools",
+        "vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "llvm-vs-code-extensions.vscode-clangd"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash", // Использовать bash в терминале по умолчанию
+        "cmake.configureOnOpen": true  // Автоматически запускать CMake при открытии проекта
+    }
+}
