@@ -70,16 +70,11 @@ tasks/Laboratory_3/
 │   ├── arrayoffigures.h
 │   ├── figure.h
 │   ├── point.h
-│   ├── rectangle.h
+│   ├── hexagon.h
 │   ├── rhombus.h
-│   └── trapezoid.h
+│   └── pentagon.h
 ├── src/
-│   ├── arrayoffigures.cpp
-│   ├── figure.cpp
-│   ├── point.cpp
-│   ├── rectangle.cpp
-│   ├── rhombus.cpp
-│   └── trapezoid.cpp
+│   ├── README.md
 └── tests/
     ├── test_arrayoffigures.cpp
     ├── test_point.cpp
@@ -87,8 +82,6 @@ tasks/Laboratory_3/
     ├── test_rhombus.cpp
     └── test_trapezoid.cpp
 ```
-
-
 
 ## Сборка и запуск проекта
 
