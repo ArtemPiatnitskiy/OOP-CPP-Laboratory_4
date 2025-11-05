@@ -15,7 +15,6 @@ static constexpr double EPS = 1e-6;
 
 // =========================
 // ЧАСТЬ 1: Массив одного типа фигур (Rhombus)
-// Задание требует: "проверить для Array<Rhombus<double>>"
 // =========================
 
 TEST(ArrayOfFiguresTest, SingleTyp_AddAndSize) {
@@ -85,7 +84,6 @@ TEST(ArrayOfFiguresTest, SingleType_TotalSquare) {
 
 // =========================
 // ЧАСТЬ 2: Полиморфный массив разных типов фигур
-// Задание требует: "проверить для Array<Figure<double>*>"
 // =========================
 
 TEST(ArrayOfFiguresTest, PolymorphicArray_MixedFigures) {
